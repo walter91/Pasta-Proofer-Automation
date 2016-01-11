@@ -1,18 +1,38 @@
-[
+{
+  "measures": [
     {
-        "name": "Temperature Measured",
-        "value": 100,
+      "id": 1,
+      "title": "temperature",
+      "value": 120
     },
     {
-        "name": "Temperature Desired",
-        "value": 120,
-    },
-	{
-        "name": "Humidity Measured",
-        "value": 40,
-    },
-     {
-        "name": "Humidity Desired",
-        "value": 30,
+      "id": 2,
+      "title": "humidity percent",
+      "value": 80
     }
-]
+  ],
+  "commands": [
+    {
+      "id": 1,
+      "title": "temperature",
+      "value": 100
+    },
+    {
+      "id": 2,
+      "title": "humidity percent",
+      "value": 75
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "title": "water level",
+      "value": "full"
+    },
+    {
+      "id": 2,
+      "title": "valve",
+      "value": "closed"
+    }
+  ]
+}
