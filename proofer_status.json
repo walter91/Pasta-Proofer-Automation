@@ -15,12 +15,14 @@
     {
       "id": 1,
       "title": "temperature",
-      "value": 100
+      "value": 100,
+	  "tolerance": 5
     },
     {
       "id": 2,
       "title": "humidity percent",
-      "value": 75
+      "value": 75,
+	  "tolerance": 5
     }
   ],
   "status": [
@@ -33,6 +35,18 @@
       "id": 2,
       "title": "valve",
       "value": "closed"
+    }
+  ]
+  "states": [
+    {
+      "id": 1,
+      "title": "heater",
+      "value": "on"
+    },
+    {
+      "id": 2,
+      "title": "humidifier",
+      "value": "still_on"
     }
   ]
 }
